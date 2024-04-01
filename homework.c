@@ -11,4 +11,12 @@
 
 // 1245 se 8976 positive, even -> lottery dedo, negative, lottery 
 // table -> 2 , 2*2=4 2*3 = 6
-// prime -> 2,3,5,7,11,13
+// prime -> 2,3,5,7,11,13 [ on Hold
+
+
+//32March
+
+// while 1 - 100 
+// nultiple 1*1 = 1, 2*2 = 4
+// even -> 4/2 * 3 , this is even, and its calculation is , 
+//odd -> 1 - 4 * 2 , this is off, and its calculation is 
