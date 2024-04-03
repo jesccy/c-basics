@@ -20,3 +20,11 @@
 // nultiple 1*1 = 1, 2*2 = 4
 // even -> 4/2 * 3 , this is even, and its calculation is , 
 //odd -> 1 - 4 * 2 , this is off, and its calculation is 
+
+
+// loop 1-7  if  1 -> nichip, 2 -> getsuyoubi
+// if kayoubi -> hxh is broadcat
+// doyoubi -> black clover broadcast
+// kinyoubi -> gintama broadcast
+
+//character -> if vowel => charact is vowle if not vowel -> character is consonant
