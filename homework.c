@@ -28,3 +28,12 @@
 // kinyoubi -> gintama broadcast
 
 //character -> if vowel => charact is vowle if not vowel -> character is consonant
+
+//4th April 
+//1+2+3+4+5 = 15 using while loop
+// num = 1 num<=5 sum =
+
+
+//fibonacci series 0,1,1,2,5,7
+  
+//5*4*3*2*1 = 120
