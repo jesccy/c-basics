@@ -36,4 +36,9 @@
 
 //fibonacci series 0,1,1,2,5,7
   
+
+//5th april 2024
+//multiplication using for loop
 //5*4*3*2*1 = 120
+// table  for loop
+// for lopp even number upto 50
