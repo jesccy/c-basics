@@ -1,24 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int i = 1;
-    printf("hello,%d", i);
+    int i = 0, j=0;
 
-    // int a = 7;
-    // int i = 5;
-    // printf("%d", i);
-    // printf("%d", a);
-    for (i = 1; i <= 50; i++)
+    for (i = 0; i <= 1; i++)
     {
-        // printf("i is \n%d", i);
-        // printf("remainder \n%d", i%2);
-        
-        if (i % 2 == 0)
+        for (j = 0; j <= 1; j++)
         {
-
-            printf("\nresult %d", i);
-            printf("\n%d", i);
+            printf("@");
         }
+        printf("\n");
     }
     return 0;
 }
