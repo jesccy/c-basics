@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int i = 0, j = 0, num;
-
-    for (i = 0; i <= 4; i++)
+    int i = 0, j = 0, num, rows;
+    printf("\n Enter the number of rows to print a number sequence");
+    scanf("\n%d", &rows);
+    for (i = 0; i <= rows; i++)
     {
-        for (j = 0; j <= 4 - i; j++)
+        for (j = 0; j <= rows - i; j++)
         {
             printf("*  ");
         }
