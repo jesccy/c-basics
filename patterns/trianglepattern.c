@@ -11,7 +11,7 @@ int main()
         {
             printf("  ");
         }
-        for (j = 3; j >= rows - i; j--)
+        for (j = rows; j >= rows - i; j--)
         {
             printf("* ");
         }

@@ -1,27 +1,41 @@
 #include <stdio.h>
 int main()
 {
-    int i, j, num = 1, rows;
-    printf("Enter the number of rows to print a floyd's triangle");
+    int a, b, c, d, e, f,g,h, num = 1, num11 = 1, rows;
+    printf("Please Enter a number to print a diamond");
     scanf("\n%d", &rows);
-    for (i = 0; i <= rows; i++)
+    for (a = 0; a <= (rows / 2); a++)
     {
-        for (j = 0; j <= rows - 1; j++)
+        for (b = 0; b <= (rows / 2) - num; b++)
         {
-            printf(" ");
+            printf("  ");
         }
-        for (j = rows-i; j <= rows; j++)
+        for (c =(rows / 2) - a; c <= (rows / 2) +a; c++)
         {
             printf("* ");
         }
-        for (j = 0; j <=0; j++)
+        for (f =(rows / 2) + num; f <= rows; f++)
         {
-            printf(" ");
-        }
-        for (j = rows-2; j <= rows; j++)
-        {
-            printf("* ");
+            printf("  ");
         }
         printf("\n");
+        num = num + 1;
+    }
+    for (d = (rows / 2) + 1; d <= rows; d++)
+    {
+        for (e = 0; e <= num11 - 1; e++)
+        {
+            printf("  ");
+        }
+        for (g = 0 + num11; g <= rows-num11; g++)
+        {
+            printf("* ");
+        }
+        for (h = rows - num11; h <= rows; h++)
+        {
+            printf("  ");
+        }
+        printf("\n");
+        num11 = num11 + 1;
     }
 }

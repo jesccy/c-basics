@@ -2,7 +2,7 @@
 int main()
 {
     int i, j, k, rows, num = 1;
-    printf("Enter the number of rows to print a thoncus");
+    printf("Enter the number of rows to print a thombus");
     scanf("\n%d", &rows);
     for (i = 0; i <= rows; i++)
     {

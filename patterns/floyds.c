@@ -8,7 +8,7 @@ int main()
     {
         for (j = 0; j <= i; j++)
         {
-            printf("%d ", num);
+            printf("%d   ", num);
             num = num + 1;
         }
         printf("\n");
