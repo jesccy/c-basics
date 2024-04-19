@@ -1,43 +1,28 @@
 #include <stdio.h>
 int main()
 {
-    int i, j, k, num = 1, rows, col3 = 1, col2 = 1, col1 = 1, col0 = 1;
+    int a, b, c, d, e, i, j, k, num = 1, nombre = 1, rows, col3 = 1, col2 = 1, col1 = 1, col0 = 1;
     printf("Enter the number of rows to print a Pascal's traingle");
     scanf("\n%d", &rows);
-    for (i = 0; i <= rows; i++)
+    for (a = 0; a <= rows; a++)
     {
-        for (j = 0; j <= rows - num; j++)
+        for (c = 0; c <= rows - num; c++)
         {
-            printf(" ");
+            printf("  ");
         }
-        for (k = rows - i; k <= rows; k++)
+        for (b = 0; b <= a; b++)
         {
-            if (k == 4)
+            if (a == 0 || b == 0)
             {
                 printf("1 ");
             }
-            if (k == 3)
+            else
             {
-                printf("%d ", col3);
-                col3 = col3 + 1;
-            }
-            if (k == 2)
-            {
-                printf("%d ", col2);
-                col2 = col2 + col3;
-            }
-            if (k == 1)
-            {
-                printf("%d ", col1);
-                col1 = col1 + col2;
-            }
-            if (k == 0)
-            {
-                printf("%d ", col0);
-                col0 = col0 + col1;
+                d = (a - b + 1);
+                nombre = nombre * d / b;
+                printf(" %d ", nombre);
             }
         }
-
         printf("\n");
         num = num + 1;
     }
