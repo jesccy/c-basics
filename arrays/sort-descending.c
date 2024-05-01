@@ -7,7 +7,7 @@ int main()
     {
         for (j = i + 1; j <= 9; j++)
         {
-            if (array[i] > array[j])
+            if (array[i] < array[j])
 
             {
                 swapper = array[i];
