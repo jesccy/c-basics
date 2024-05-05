@@ -57,7 +57,7 @@ int main()
 
     if (selection == 1)
     {
-        printf("Please enter  value for fibbonaci a number series, limit for fibbonaci (example upto 100): ");
+        printf("Please enter  value for fibbonaci a number series,(example upto 100): ");
         scanf("%d", &number);
     }
 
