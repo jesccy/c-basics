@@ -25,12 +25,17 @@ int pascal(int number)
         printf("\n");
         num = num + 1;
     }
+    return 0;
 }
 
 int fibbonacci(int number)
 {
+    int lastterm1 = 0, lastterm2 = 1, Nextterm;
 
-    int lastterm1 = 0, lastterm2 = 1, sum, Nextterm = lastterm1 + lastterm2;
+    printf("Fibonacci series up to %d: ", number);
+    printf("%d %d", lastterm1, lastterm2);
+
+    Nextterm = lastterm1 + lastterm2;
 
     while (Nextterm <= number)
     {
@@ -41,6 +46,7 @@ int fibbonacci(int number)
     }
     return 0;
 }
+
 int main()
 {
 
@@ -51,7 +57,7 @@ int main()
 
     if (selection == 1)
     {
-        printf("Please enter  value for fibbonaci a number series, limit for fibbonaci (example = 100): ");
+        printf("Please enter  value for fibbonaci a number series, limit for fibbonaci (example upto 100): ");
         scanf("%d", &number);
     }
 
