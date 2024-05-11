@@ -1,9 +1,8 @@
 #include<stdio.h>
 int maxproduct (int array[]){
-    int i,maxnumber=1,num=1;
+    int i,maxnumber=1;
     for(i=0;i<=3;i++){
-maxnumber=num*array[i];
-num=maxnumber;
+maxnumber=maxnumber*array[i];
     }
     printf("%d", maxnumber);
 
