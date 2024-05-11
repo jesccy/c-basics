@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void checkdub(int array[]) {
-    int i, j, found = -1, notfound = -1;
+    int i, j, found, notfound;
 
     for (i = 0; i <= 4; i++) {
         for (j = i + 1; j <= 4; j++) {
