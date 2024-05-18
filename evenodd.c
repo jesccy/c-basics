@@ -2,6 +2,8 @@
 int main()
 {
     int a = 11;
+
+    
     if (a % 2 == 0)
     {
         printf("%d is a even number",a);
