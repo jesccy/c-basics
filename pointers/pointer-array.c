@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
+
 int main()
 {
+
+   
     int myNumbers[4] = {25, 50, 75, 100};
     // int i = 5;
     // int *ptr = &i;
